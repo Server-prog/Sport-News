@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+  <title>⚽Sport News - Notícias de Futebol</title>
+</head>
+<>
+<header>
+  <div class="logo">
+      <img src="img/Logo-removebg-preview.png" alt="Logo">
+      <span>SOCCER</span>
+  </div>
+  <i class="bx bx-menu menu-toggle"></i>
+  <nav>
+      <a href="html/about.html" class="active">About us</a>
+      <a href="#">Home</a>
+      <a href="#">Search</a>
+      <a href="#">Competitions</a>
+      <a href="#">Teams</a>
+      <a href="#">Players</a>
+      <a href="#">Hiring</a>
+      <a href="about.html">More</a>
+  </nav>
+  <div class="search-bar">
+      <input type="text" placeholder="search...">
+      <i class="bx bx-search"></i>
+  </div>
+  <div class="options">
+      <i class="bx bx-grid-alt"></i>
+      <button class="btn" href="form.html"><a href="form.html">Entrar</a></button>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('nav');
+
+  toggle.addEventListener('click', () => {
+      toggle.classList.toggle('active');
+      nav.classList.toggle('active');
+  });
+</script>
+
+  <section class="news-section">
+    <div class="main-news">
+      <img src="img/Novas/Real Madrid.jpg" alt="Jogador de futebol" class="news-image">
+      <div class="news-content">
+        <span class="tag">News Informations</span>
+        <h2>Real Madrid defeated Salzburg 5-1 in the UEFA Champions League. Rodrygo scored twice (23' and 34'), Mbappé scored once (48'), and Vinícius Júnior scored twice (55' and 77')</h2>
+        <p class="author-time">Bia Palumbo | 5:39 PM GMT-3</p>
+      </div>
+    </div>
+    <div class="side-news">
+      <div class="news-item">
+        <img src="img/4.jpg" alt="Jogador europeu" class="news-image">
+        <div class="news-content">
+          <span class="tag">Internacional Football</span>
+          <h3>Barcelona wins against Real Madrid in the 2025 Super Cup with a score of 5-2.</h3>
+          <p class="author-time">Bia Palumbo | 5:02 PM GMT-3</p>
+        </div>
+      </div>
+      <div class="news-item">
+        <img src="img/ronaldo.png" alt="Jogador do Liverpool" class="news-image">
+        <div class="news-content">
+          <span class="tag">Victores</span>
+          <h3>Cristiano Ronaldo was honored as the all-time top scorer of the UEFA Champions League.</h3>
+          <p class="author-time">Aniele Lacerda | 12:10 PM GMT-3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="latest-news">
+    <div class="header">
+      <h2>Latest News</h2>
+      <a href="https://www.msn.com/en-gb/sport/football/20-richest-clubs-in-world-football-based-on-revenue-generated-2025/ar-AA1xOVTh?ocid=BingNewsVerp" class="view-more">
+        <span>See all</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+    <div class="news-grid">
+      <div class="news-card">
+        <img src="img/yamal.jpg" alt="Barcelona sofre jejum de vitórias" class="news-image">
+        <div class="news-content">
+          <span class="tag laliga">LaLiga</span>
+          <h3>Barcelona is experiencing a winless streak and may see Real Madrid take the lead; see results...</h3>
+          <p class="author-time">Bia Palumbo | 8:06 PM GMT-3</p>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="img/inter.jpg" alt="Cruzeiro x Atlético-MG" class="news-image">
+        <div class="news-content">
+          <span class="tag futebol-brasileiro">Futebol brasileiro</span>
+          <h3>Inter Miami drew 2-2 with Club América and won 3-2 on penalties, with Messi and Suárez standing out...</h3>
+          <p class="author-time">Bia Palumbo | 7:37 PM GMT-3</p>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="img/Sporting.jpg" alt="Cruzeiro x Atlético-MG" class="news-image">
+        <div class="news-content">
+          <span class="tag futebol-brasileiro">Futebol brasileiro</span>
+          <h3>Sporting CP defeated Rio Ave FC 3-0, with goals from Santos, Hjulmand, and Gyökeres. Sporting dominated the game.</h3>
+          <p class="author-time">Bia Palumbo | 7:37 PM GMT-3</p>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="img/realsociedade.png" alt="Darwin" class="news-image">
+        <div class="news-content">
+          <span class="tag premier-league">Premier League</span>
+          <h3>Real Sociedad played against Valencia CF. The game ended with a 1-0 victory for Valencia, with a goal by Hugo...</h3>
+          <p class="author-time">Bia Palumbo | 6:25 PM GMT-3</p>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="img/city.png" alt="PH Ganso" class="news-image">
+        <div class="news-content">
+          <span class="tag futebol-brasileiro">Futebol brasileiro</span>
+          <h3>Manchester City defeated Ipswich Town 6-0. Phil Foden scored two goals, Jeremy Doku, and Haaland also contributed...</h3>
+          <p class="author-time">Bia Palumbo | 3:20 PM GMT-3</p>
+        </div>
+      </div>
+      <div class="news-card large">
+        <img src="img/manchester.png" alt="Ceará jogadores comemorando" class="news-image">
+        <div class="news-content">
+          <span class="tag futebol-brasileiro">Futebol brasileiro</span>
+          <h3>"Manchester United lost to Brighton 3-1. Bruno Fernandes scored a penalty for Manchester United...</h3>
+          <p class="author-time">Bia Palumbo | 9:29 PM GMT-3</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="new-section">
+    <div class="new-header">
+      <h2>News Informations</h2>
+      <a href="https://www.bbc.com/sport/football" class="view-more">See latest news »</a>
+    </div>
+    <div class="new-content">
+      <div class="video-container">
+        <video controls autoplay muted loop>
+          <source src="video/ANCELOTTI ZOA ALTURA DE TATI MANTOVANI E EXALTA ESPÍRITO VENCEDOR DO REAL! .mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="new-cards">
+        <div class="new-card">
+          <img src="img/Novas/Vitoria de Real Madrid.jpg" alt="Notícia 1">
+          <div class="new-info">
+            <h3>Real Madrid - Las Palmas</h3>
+            <p>Real Madrid defeated Las Palmas 4-1 on Sunday, reclaiming the top spot in La Liga.</p>
+            <span>há 6 horas · 1,1k</span>
+          </div>
+        </div>
+        <div class="new-card">
+          <img src="img/Vini.jpg" alt="Notícia 2">
+          <div class="new-info">
+            <h3>FIFA 2024</h3>
+            <p>Vinícius Júnior was named the best player in the world by FIFA in 2024, surpassing Rodri and Lionel Messi.</p>
+            <span>há 6 horas · 13,6k</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlighted-matches">
+    <h2>Featured matches</h2>
+    <div class="match-day">
+      <h3>SUNDAY 19 JANUARY 2025</h3>
+      <div class="match-grid">
+        <div class="match-card">
+          <div class="league">Premier League</div>
+          <div class="teams">
+            <div class="team">
+              <img src="img/Teams/Manchester United Football Club.jpeg" alt="Manchester United">
+              <span>Manchester United</span>
+            </div>
+            <span class="time">15:00</span>
+            <div class="team">
+              <img src="img/Teams/Brington.jpeg" alt="Las Palmas">
+              <span>Brighton & Hove Albion</span>
+            </div>
+          </div>
+          <div class="broadcasters">DAZN 1, DAZN 1 Bar, DAZN, Disney+ Premium, MAX</div>
+        </div>
+  
+        <div class="match-card">
+          <div class="league">LaLiga</div>
+          <div class="teams">
+            <div class="team">
+              <img src="img/Teams/RealMadrid.jpeg" alt="Real Madrid">
+              <span>Real Madrid</span>
+            </div>
+            <span class="time">16:15</span>
+            <div class="team">
+              <img src="img/Teams/UD LAS PALMAS.jpeg" alt="Las Palmas">
+              <span>Las Palmas</span>
+            </div>
+          </div>
+          <div class="broadcasters">DSports, SKY Sports, DAZN LaLiga, DAZN LaLiga 2</div>
+        </div>
+  
+        <div class="match-card">
+          <div class="league">LaLiga</div>
+          <div class="teams">
+            <div class="team">
+              <img src="img/Teams/Real Sosiedad.jpeg" alt="Valencia">
+              <span>Valencia</span>
+            </div>
+            <span class="time">21:00</span>
+            <div class="team">
+              <img src="img/Teams/Valencia.jpeg" alt="Real Sociedad">
+              <span>Real Sociedad</span>
+            </div>
+          </div>
+          <div class="broadcasters">SKY Sports, LaLiga TV Bar, M+ LaLiga TV, Disney+ Premium, ESPN 2</div>
+        </div>
+  
+        <div class="match-card">
+          <div class="league">Premier League</div>
+          <div class="teams">
+            <div class="team">
+              <img src="img/Teams/Ipswich Town (by RG Design).jpeg" alt="Ipswich Town">
+              <span>Ipswich Town</span>
+            </div>
+            <span class="time">17:30</span>
+            <div class="team">
+              <img src="img/Teams/Manchester City Football Club.jpeg" alt="Manchester City">
+              <span>Manchester City</span>
+            </div>
+          </div>
+          <div class="broadcasters">DAZN 1, ESPN, MAX, DAZN 1 Bar, DAZN</div>
+        </div>
+  
+        <div class="match-card">
+          <div class="league">LaLiga</div>
+          <div class="teams">
+            <div class="team">
+              <img src="img/Teams/celtic.jpeg" alt="Celta">
+              <span>Celta</span>
+            </div>
+            <span class="time">14:00</span>
+            <div class="team">
+              <img src="img/Teams/Alves.jpeg" alt="Athletic">
+              <span>Athletic</span>
+            </div>
+          </div>
+          <div class="broadcasters">DSports, SKY Sports, LaLiga TV Bar, DAZN LaLiga 2, DAZN</div>
+        </div>
+  
+        <div class="match-card">
+          <div class="league">LaLiga</div>
+          <div class="teams">
+            <div class="team">
+              <img src="img/Teams/osasuna.jpeg" alt="Osasuna">
+              <span>Osasuna</span>
+            </div>
+            <span class="time">18:30</span>
+            <div class="team">
+              <img src="img/Teams/valecano.jpeg" alt="Rayo Vallecano">
+              <span>Rayo Vallecano</span>
+            </div>
+          </div>
+          <div class="broadcasters">DSports, SKY Sports, LaLiga TV Bar, M+ LaLiga TV, DGO</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="champions-league">
+    <h2>Champions League</h2>
+    <div class="content">
+      <div class="main-article">
+        <img src="img/League.jpeg" alt="Sergio Conceição">
+        <div class="article-info">
+          <h3>Sergio Conceição substitui Paulo Fonseca e é o novo técnico do Milan</h3>
+          <p><span>Antonio Mota</span> | Dec 30, 2024</p>
+        </div>
+      </div>
+      <div class="side-articles">
+        <div class="side-article">
+          <img src="img/League/psg.jpg" alt="Luis Enrique">
+          <div class="text">
+            <h4>PSG gives ultimatum to Luis Enrique with "two finals" in January; Understand</h4>
+            <p>Former coach of the Spanish National Team and Barcelona leads Paris Saint...</p>
+            <p><span>Bia Palumbo</span> | Dec 26, 2024</p>
+          </div>
+        </div>
+        
+        <div class="side-article">
+          <img src="img/League/preparação.jpg" alt="Champions League Trophy">
+          <div class="text">
+            <h4>When does the 2024/25 Champions League return?</h4>
+            <p>Find out details of when the 2024/25 UEFA Champions League will return...</p>
+            <p><span>Nathália Almeida</span> | Dec 25, 2024</p>
+          </div>
+        </div>
+
+        <a href="https://desporto.sapo.pt/futebol/liga-dos-campeoes/artigos/incrivel-o-que-aconteceu-na-luz-benfica-perde-por-5-4-com-golo-no-ultimo-segundo-em-jogo-que-esteve-a-vencer-por-4-2" class="card-link">
+        <div class="side-article">
+          <img src="img/League/barça.jpg" alt="Barcelona Team">
+          <div class="text">
+            <h4>Barcelona's fixture schedule in January 2025</h4>
+            <p>Barcelona ends the year 2024 in a negative way, with defeat and fall...</p>
+            <p><span>Aniele Lacerda</span> | Dec 23, 2024</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="arrow">
+        <a href="https://www.forebet.com/en/predictions-europe/uefa-champions-league">
+          <span>&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="noticias">
+    <div class="container">
+      <h2 class="noticias-title">OTHER NEWS</h2>
+      <div class="noticias-underline"></div>
+      <div class="noticias-content">
+        <div class="noticia-principal">
+          <p class="categoria">FPF</p>
+          <h3 class="titulo-principal">CRISTIANO RONALDO MELHOR MARCADOR DE TODOS OS TEMPOS.</h3>
+          <p class="descricao-principal">C. Ronaldo continua brilhando no Al-Nassr</p>
+          <img
+            src="img/C.Ronaldo.jpg"
+            alt="Fernando Gomes"
+            class="imagem-principal"
+          />
+          <div class="rodape-principal">
+            <span class="data">18 de janeiro de 2025</span>
+            <button class="botao-partilhar">
+              <a href="https://www.mirror.co.uk/sport/football/news/cristiano-ronaldo-retirement-world-cup-34487753">
+              <i class="fa fa-share-alt"></i> SHARE
+              </a>
+            </button>
+          </div>
+        </div>
+  
+        <div class="noticias-laterais">
+          <div class="tabs">
+            <button class="tab active">LAST</button>
+            <button class="tab">MOST READ</button>
+          </div>
+          <ul class="lista-noticias">
+            <li class="noticia-lateral">
+              <p><strong>Liga 3 Placard:</strong> VARZIM VENCE AO CAIR DO PANO</p>
+              <span class="data-lateral">18 de janeiro de 2025</span>
+            </li>
+            <li class="noticia-lateral">
+              <p><strong>Futsal Fem. - Taça de Portugal:</strong> OITAVOS EM ANDAMENTO</p>
+              <span class="data-lateral">18 de janeiro de 2025</span>
+            </li>
+            <li class="noticia-lateral">
+              <p><strong>Futsal Fem. - Taça de Portugal:</strong> OITAVOS EM ANDAMENTO</p>
+              <span class="data-lateral">18 de janeiro de 2025</span>
+            </li>
+            <li class="noticia-lateral">
+              <p><strong>Liga Portugal Betclic:</strong> SPORTING RETOMA LIDERANÇA</p>
+              <span class="data-lateral">18 de janeiro de 2025</span>
+            </li>
+            <li class="noticia-lateral">
+              <p><strong>Liga 3 Placard:</strong> ANADIA E SÃO JOÃO DE VER EMPATAM</p>
+              <span class="data-lateral">18 de janeiro de 2025</span>
+            </li>
+          </ul>
+          <button class="botao-ver-todas">
+            SEE ALL <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>  
+   
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <ul class="footer-column">
+          <li><a href="about.html">About Sport News</a></li>
+          <li><a href="#">Work with us</a></li>
+        </ul>
+        <ul class="footer-column">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Accessibility Statement</a></li>
+        </ul>
+        <ul class="footer-column">
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">A-Z Index</a></li>
+        </ul>
+        <ul class="footer-column">
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+        </ul>
+        <ul class="footer-column">
+          <li><a href="#">Minute Media</a></li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <a href="#" class="logo">⚽SportNews</a>
+      </div>
+      <div class="footer-copyright">
+        © 2025 <a href="#">Powered by Minute Media</a> - All rights reserved
+      </div>
+    </div>
+  </footer>  
+</body>
+</html>

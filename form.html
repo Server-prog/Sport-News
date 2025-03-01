@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="html/form.css">
+  <title>Formulário de Login</title>
+</head>
+<body>
+  <div class="modal">
+    <button class="close" href="index.html">&times;</button>
+    <div class="logo">
+      <img src="img/Logo.jpg" alt="Logotipo">
+    </div>
+    <h2>LOGIN</h2>
+    <div class="social-login">
+      <button class="facebook">
+        <img src="img/Free Facebook.jpeg" alt="Facebook">
+      </button>
+      <button class="google">
+        <img src="img/0ef2ec0e-26d0-483d-bd06-7d01f8418e1e.jpeg" alt="Google">
+      </button>
+    </div>
+    <form>
+        <input type="text" name="name" placeholder="Digite seu nome" required>
+        <input type="email" placeholder="Endereço de email" required>
+        <input type="password" placeholder="Palavra-passe" required>
+        <a href="#">Esqueceu-se da palavra-passe? Recuperar</a>
+        <button type="submit"><a href="index.html" class="bnt">ENTRAR</a></button>
+    </form>
+    <div class="register">
+      Ainda não tem registo? <a href="#">Registe-se Grátis</a>
+    </div>
+  </div>
+  <script>
+    const closeButton = document.querySelector('.close');
+    closeButton.addEventListener('click', () => {
+      document.querySelector('.modal').style.display = 'none';
+    });
+  </script>
+</body>
+</html>
